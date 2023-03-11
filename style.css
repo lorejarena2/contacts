@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    background-image: url('./fondo.jpg');
+    background-size: cover;
+}
+
+.cinta{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    
+}
+
+.img_cinta{
+width: 10%;
+height: 100%;
+}
+
+.img_cinta img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor{
+    width: 50%;
+    height: 60%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.uno{
+    width: 95%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.one{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.two{
+    width: 35%;
+    height: 100%;
+}
+
+.two img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.dos{
+    width: 95%;
+    height: 30%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resultado{
+    width: 80%;
+    height: 50%;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.criterio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.criterio select{
+    width: 60%;
+    height: 25px;
+    background-color: white;
+}
+
+.nom{
+    width: 60%;
+    height: 25px;
+}
+
+.css-button-rounded--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #57cc99;
+    background: #57cc99;
+  }
+  .css-button-rounded--green:hover {
+    background: #fff;
+    color: #57cc99
+  }
+
+  .css-button-rounded--black {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #212529;
+    background: #212529;
+  }
+  .css-button-rounded--black:hover {
+    background: #fff;
+    color: #212529
+  }
